@@ -1,0 +1,12 @@
+Algorithm for the Eponential implementation of Oddonacci
+
+Algo(number){
+oddvalue;
+if(number is 1,2 or 3){
+    set oddvalue to 1;
+} else{
+    set oddvalue to Algo(number-1)+Algo(number-2)+Algo(number-3);
+}
+return oddvalue;
+
+}

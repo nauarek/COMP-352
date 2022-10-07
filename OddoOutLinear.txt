@@ -1,0 +1,8 @@
+output for 5=5, the process was completed in: 11800ns and in 3 steps. 
+output for 10=105, the process was completed in: 5400ns and in 8 steps. 
+output for 15=2209, the process was completed in: 5500ns and in 13 steps. 
+output for 20=46499, the process was completed in: 7700ns and in 18 steps. 
+output for 25=978793, the process was completed in: 9500ns and in 23 steps. 
+output for 30=20603361, the process was completed in: 11800ns and in 28 steps. 
+output for 35=433695873, the process was completed in: 13200ns and in 33 steps. 
+output for 40=539260895, the process was completed in: 24500ns and in 38 steps. 

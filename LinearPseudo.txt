@@ -1,0 +1,22 @@
+Algorithm for Linear implementation of Oddonacci
+
+Algo (number){
+Array A [3];
+first =0;
+second=0;
+third=0;
+
+if (number is 3){
+    first,second, third = 1;
+    set first three positions in A array to firs,second and third;
+    return A;
+} else{
+    A = Algo(number-1);
+    set first, second and third to A[0,1,2] respectively
+    set A[0] to first+second+third
+    set A[1] to first
+    set A[2] to second
+    return A;
+}
+
+}

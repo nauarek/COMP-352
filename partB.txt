@@ -1,0 +1,5 @@
+The first, exponential complexity algorithm calls itself multiple times, thus making it exponentially recursive
+this differs from the linear complexity algorithm which only calls itself once
+
+What this difference in calls means is that the overall number of calls to the function is drastically higher in the
+exponential algorithm.

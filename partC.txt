@@ -1,0 +1,13 @@
+Neither of the previous two algorithms use tail recursion, since tail recursion is when the last statement in a method contains a recursive call
+
+A tail recursion method CAN be written for the same function, an example of one follows:
+
+public static int tail(int k, int first, int second, int third){
+        if(k==3){
+            return third;
+        }
+        return tail(k-1, second,third, first+second+third);
+    }
+
+and when you call the tail, k is the number you'd like to find the oddonacci value for,
+and first,second and third should be equal to 1
