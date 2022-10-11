@@ -1,0 +1,1 @@
+Based on the timings from the two programs we can see that the Linear implementation is much faster than the exponential one
