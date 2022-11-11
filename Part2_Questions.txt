@@ -1,0 +1,15 @@
+a) The time complexity for the recursive would be O(n) while its space complexity would be O(1) since we only manipulate the array, and aren't creating a new one.
+   Also thanks to the use of tail recursion we limit it to O(1)
+
+   The time complexity and space complexity for the stack version would be O(n), since we would have to create stacks to manipulate on to achieve the solution
+
+b)
+    A. Tail recursion was used for the recursion here, this impacts the complexity as it will limit the space complexity to (1) rather than the usual O(n) calls to the stack that occurs with linear recursion
+
+c)
+    B. We chose a stack since it provided the simplest analogue to the tasks necessary to run the game, particularly the ability to push and pop.
+
+d)  unsolvable array configurations may include arrays where the marker starts at a value that cannot move to the right or left, so to check this we would have to add some checking statements to
+    automatically discard of these unsolvable arrays
+
+    In order to speed up the execution time, one may put a limit for how many tries through the array the function would go through. This would limit the time complexity to O(1)

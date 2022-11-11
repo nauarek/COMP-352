@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class Question3 {
     public static boolean fiveOccurences(int[] A, int x){
         int len = A.length;

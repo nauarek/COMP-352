@@ -1,0 +1,32 @@
+StrikeEdge(array, marker){
+    sizeOfArray
+    baseStack
+    manipulationStack
+
+    for i-->sizeOfArray to 0 i--
+        input array[i] into baseStack
+            if i is greater than or equal to marker
+                input array[i] into manipulationStack
+
+    do while manipulationStack size is greater than 0
+        mSize --> size of manipulation stack
+        topOfStackValue --> element at msize-1 from manipulation stack
+
+        if baseStack element at mSize-1 is equal to 0 AND mSize is equal to 1
+            return 1
+
+        if baseStack element at mSize-1 is equal to 0 AND mSize is more than 1
+            return 0
+
+        if topOfStackValue is less than 0 then set baseStack mSize-1 to 0
+            else
+               set baseStack mSize-1 to negative version of topOfStackValue
+
+        if topOfStackValue is less than mSize AND topOfStackValue is greater than 0
+            pop for topOfStackValue elements from the manipulationStack
+
+        else if the absolute value of topOfStackValue+mSize is less than or equal to sizeOfArray
+            push from baseStack into the manipulationStack for absolute value of topOfStackValue elements
+
+    return 0
+}

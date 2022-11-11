@@ -1,0 +1,21 @@
+StrikeEdge(array, marker){
+    currentPositionValue --> value at position marker in the array
+    valueAbsolute --> absolute value of currentPositionValue
+
+    if marker is equal to the array length -1 then return 1
+
+    if value at position marker in the array is equal to 0 then return 0
+
+    if currentPositionValue is less than 0 then set position marker in the array to 0
+
+        else
+        set position marker in the array to be the negative of currentPositionValue
+
+    if marker + currentPositionValue is less than the length of the array AND currentPositionValue is greater than 0
+        marker --> marker + currentPositionValue
+
+    else if marker - valueAbsolute is greater than or equal to 0
+        marker --> marker - valueAbsolute
+
+    return strikeEdge(array, marker)
+}

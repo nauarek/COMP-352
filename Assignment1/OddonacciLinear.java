@@ -1,3 +1,5 @@
+package Assignment1;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -36,7 +38,7 @@ public class OddonacciLinear {
 
     public static void main(String[] args) {
         try {
-            FileWriter outputLinear = new FileWriter("OddoOutLinear.txt");
+            FileWriter outputLinear = new FileWriter("Assignment1/OddoOutLinear.txt");
 
 
             long start = 0;

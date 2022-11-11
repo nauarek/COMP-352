@@ -1,3 +1,5 @@
+package Assignment1;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -17,7 +19,7 @@ public class OddonacciExponential {
 
     public static void main(String[] args) {
         try {
-            FileWriter outputExponential = new FileWriter("OddOutExponential.txt");
+            FileWriter outputExponential = new FileWriter("Assignment1/OddOutExponential.txt");
             long start = 0;
             long end = 0;
             long time;
