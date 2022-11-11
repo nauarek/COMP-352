@@ -15,10 +15,10 @@ public class Part2_B {
 
         //take first argument as input file
         //take second argument as output file
-        //String inputFileName = args[0];
-        String inputFileName = "in.txt";
-        //String outputFileName = args[1];
-        String outputFileName = "out.txt";
+        String inputFileName = args[0];
+        //String inputFileName = "in.txt";
+        String outputFileName = args[1];
+        //String outputFileName = "out.txt";
 
         try {
             BufferedReader in = new BufferedReader(new FileReader(inputFileName));
